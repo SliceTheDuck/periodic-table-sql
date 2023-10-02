@@ -3,7 +3,7 @@ CREATE TABLE `elements` (
   `group` tinyint(1) DEFAULT NULL,
   `period` tinyint(1) DEFAULT NULL,
   `atomic_number` tinyint(3) NOT NULL,
-  `atomic_mass` decimal(10,8) NOT NULL,
+  `atomic_mass` decimal(20,5) NOT NULL,
   `symbol` varchar(2) NOT NULL,
   `name` varchar(45) NOT NULL,
   PRIMARY KEY (`element_id`)
